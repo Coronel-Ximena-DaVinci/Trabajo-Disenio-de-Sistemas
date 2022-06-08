@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">	
+	<title>Amigo fiel</title> 
+	<!--  Enlaces generados por favicon para los mostrar los iconos en los distintos dispositivos -->
+	<link rel="stylesheet" href="../index.html">
+    <link rel="stylesheet" href="mascotasAdopcion.html">
+	<link rel="stylesheet" href="veterinarias.html">	
+	<link rel="stylesheet" href="donaciones.html">
+	<link rel="stylesheet" href="refugios.html">
+	<link rel="stylesheet" href="productos.html">
+	<link rel="stylesheet" href="contactos.html">
+    <link rel="apple-touch-icon" sizes="57x57" href="iconos/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="iconos/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="iconos/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="iconos/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="iconos/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="iconos/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="iconos/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="iconos/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="iconos/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="iconos/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="iconos/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="iconos/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="iconos/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#008b8b">
+	<meta name="msapplication-TileImage" content="iconos/ms-icon-144x144.png">
+	<meta name="theme-color" content="#008b8b">
+
+	<!--  Atajo emmet = meta:vp  Etiqueta para el funcionamiento responsivo -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0">
+	
+	<!--   recurso remoto, familias tipográficas de google fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Roboto&display=swap" rel="stylesheet">
+	
+	<!--CSS de Autor-->
+	<link rel="stylesheet" href="../css/estilos.css">
+	
+	<!--   recurso remoto, ícono de fontawesome-->	
+	<script src="https://kit.fontawesome.com/cedf025736.js" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+	<header class="fondo-header texto-header">	
+		<a href="../index.html" class="logo Amigo fiel">Amigo fiel</a>	
+		<nav class="menu">		
+			<ul class="lista-reset">
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="mascotasAdopcion.html">Mascotas en adopción</a></li>
+				<li><a href="veterinarias.html">Veterinarias</a></li>
+				<li><a href="donaciones.html">Donaciones</a></li>
+				<li><a href="refugios.html">Refugios</a></li>
+				<li><a href="productos.html">Productos para tu Mascotas</a></li>
+				<li><a href="contactos.html">Contacto</a></li>
+			</ul>			
+		</nav>	
+	</header>
+	<main>
+		<section id="portada" class="fondo-portada portada-center">
+			<h1>Contactanos</h1>
+			<img src="../imagenes/ilustracion-portada.png" alt="Mascotas de Amigo Fiel">
+			<h3>
+				Por cualquier duda, consulta y/o sugerencia comuniquese con nosotros.
+			</h3>
+		</section>			
+		
+		<section id="contacto">
+			<h2>Nuestra información de contacto.</h2>			
+			<div class="fondo-contacto">			
+				<div class="contenedor">
+					<div class="contacto-izq">
+						<address>
+							<h3>Escribenos a</h3>
+							<a href="mailto:info@amigofiel.com.ar">
+								info@amigofiel.com.ar
+							</a>
+							<h3>Llamanos a</h3>
+							<a href="tel:+5491149312276">11 4931-2276</a>
+							<h3>Nuestro local</h3>
+							<p>
+								Av Boedo 888 <br>
+								Ciudad Autonoma de Buenos Aires
+							</p>
+						</address> 
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.2599958376627!2d-58.41824732093587!3d-34.62286946611321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaff485dfc17%3A0xf78fbd0895dde1f2!2sAv.%20Boedo%20840%2C%20C1218AAR%20CABA!5e0!3m2!1ses!2sar!4v1588193084150!5m2!1ses!2sar" id="mapa" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</div>
+
+					<div class="contacto-de">                                  
+						<h3>Contactanos</h3>
+						<form action="#" id="formcontacto">
+							<div>
+								<label for="nombre">Nombre:</label>
+								<input type="text" id="nombre" required minlength="10">
+							</div>
+							<div>
+								<label for="mail">Mail</label>
+								<input type="email" id="mail" required>
+							</div>
+							<div>
+								<label for="consulta">Mensaje</label>
+								<textarea id="consulta" cols="30" rows="10" required minlength="15"></textarea>
+							</div>
+							<div>
+								<input type="submit" value="Enviar consulta">
+							</div>
+						</form>						
+					</div>
+				</div>				
+			</div>			
+		</section>		
+	</main>	
+	
+	<footer class="pie">
+			<ul class="lista-reset redes">
+			<li><a href=""><i class="fab fa-twitter-square"></i> Twitter</a></li>
+			<li><a href=""><i class="fab fa-instagram-square"></i> Instagram</a></li>
+			<li><a href=""><i class="fab fa-youtube-square"></i> Youtube</a></li>
+			<li><a href=""><i class="fab fa-facebook-square"></i> Facebook</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
